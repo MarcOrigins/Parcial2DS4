@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding: 0;
+    border:0;
+    text-decoration: none;
+    
+}
+body{
+    font-family:none;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.215);
+}
+.header1{
+    font-size: 19px;
+    background-color: rgba(3, 102, 167, 0.17);
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 2rem;
+    transition: all .5s;
+}
+.logo-header img{
+    width: 50px;
+}
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+}
+.nav-menu li{
+    margin-right: 1.5rem;
+    display: block;
+    line-height: 30px;
+    color: rgb(247, 247, 247);
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    
+}
+
+
+.nav-menu li:first-child{
+    background-color: rgba(11, 165, 165, 0.704);
+    border: 2px solid;
+    padding: .25rem .75rem;
+    border-radius: .4rem;
+    border-color: rgb(42, 165, 151);
+}
+.nav-menu li:first-child:hover{
+    background: transparent;
+    border: 2px solid #4ad295;
+}
+
+
+
+.headerPrincipal{
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    background-image: url(IMG/Spider-Man\ 3.jpg);
+    background-repeat: no-repeat center;
+    background-size: cover;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerFinal{
+    background-color: rgba(4, 135, 43, 0.715);
+    color: aliceblue;
+}
+
+.footerFinal h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.footerFinal h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+.form-f{
+    width: 400px;
+    background-color: rgba(2, 35, 6, 0.181);
+    color: #edeef8;
+    padding: 45px;
+    margin: auto;
+    margin-top: 90px;
+    border-radius: 20px;
+    font-family:none;
+}
+.form-f ::placeholder{
+color: #ffffff;
+font-family: none;
+}
+ 
+
+.controls{
+    width: 90%;
+    background: transparent;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ffffff;
+    font-family:none;
+    font-size: 18px;
+}
+ .otraSection button{
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 20px;
+    width: 395px;
+    height: 60px;
+    background-color: #085238;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 10px;
+    
+ }
