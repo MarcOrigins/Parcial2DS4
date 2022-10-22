@@ -12,7 +12,7 @@ body{
 }
 .header1{
     font-size: 19px;
-    background-color: rgba(3, 102, 167, 0.17);
+    background-color: rgba(111, 134, 149);
     text-align: right;
     display: flex;
     justify-content: space-between;
@@ -39,11 +39,11 @@ body{
 
 
 .nav-menu li:first-child{
-    background-color: rgba(11, 165, 165, 0.704);
+    background-color: rgba(28, 49, 68);
     border: 2px solid;
     padding: .25rem .75rem;
     border-radius: .4rem;
-    border-color: rgb(42, 165, 151);
+    border-color: rgb(196, 231, 212);
 }
 .nav-menu li:first-child:hover{
     background: transparent;
@@ -56,17 +56,18 @@ body{
     text-align: center;
     font-size: 30px;
     display: flex;
-    background-image: url(IMG/Spider-Man\ 3.jpg);
-    background-repeat: no-repeat center;
+    max-width: 100%; 
+    max-height: 100%;
+    background-image: url(IMG/coverimage.png);
+    background-repeat: no-repeat ;
     background-size: cover;
-    
-    height: 60vh;
+    height: 90vh;
     justify-content: center;
     align-items: center;
 }
 
 .footerFinal{
-    background-color: rgba(4, 135, 43, 0.715);
+    background-color: rgba(129, 141, 146);
     color: aliceblue;
 }
 
@@ -116,7 +117,7 @@ font-family: none;
     border: 20px;
     width: 395px;
     height: 60px;
-    background-color: #085238;
+    background-color: #1c3144;
     color: #ffffff;
     font-size: 20px;
     border-radius: 10px;
