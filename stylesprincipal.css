@@ -128,36 +128,64 @@ h1:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-
-
-
-body{
-    margin: 0%;
-    padding: 0%;
+h2:hover {
+    background: -webkit-linear-gradient( lime, rgb(79, 255, 249));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+h3:hover {
+    background: -webkit-linear-gradient( lime, rgb(79, 255, 249));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
 .seccion-seccion{
+    
     display: flex;
     justify-content: center;
     align-items: center;
     width: 80%;
     height: 30%;
+    margin: 50px auto;
+    text-align: center;
+    
 }
 .seccion-seccion .seccion_division{
-    text-align: center;
+    
     position: relative;
-    width: 90%;
-    height: 90%;
-    background: #1c3144;
+    width: calc(800px - 10px);
+    height: calc(700px - 90px);
     float: left;
-    margin: 1px;
+    margin: 9%;
 }
 .seccion-seccion .seccion_division header{
     text-align: center;
+    
 }
-
-
-
+.seccion_division button{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 20px;
+    width: 395px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid;
+    display: inline-block;
+    padding: .25rem .75rem;
+    cursor: pointer;
+    border-color: rgb(26, 199, 104);
+    background-color: #1c3144;
+    color: aliceblue;
+}
+.seccion_division button:hover{
+    background-color: rgba(133, 199, 242);
+    color: #1c3144;
+}
 .footerFinal{
     background-color: rgba(129, 141, 146);
     color: aliceblue;
